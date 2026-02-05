@@ -4,7 +4,7 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req: Request, res: Response) => {
-    console.log('application hit with small change');
+    console.log('application hit with small change c');
     res.send('Hello from TypeScript Express!');
 });
 
